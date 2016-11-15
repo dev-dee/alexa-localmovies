@@ -1,0 +1,30 @@
+{
+  "name": "alexa-localmovies",
+  "version": "1.0.0",
+  "description": "Alexa skill to search for movies around a specific location and more ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-dee/alexa-localmovies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-dee/alexa-localmovies/issues"
+  },
+  "homepage": "https://github.com/dev-dee/alexa-localmovies#readme",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "express": "^4.14.0",
+    "lodash": "^4.17.1",
+    "mocha": "^3.1.2",
+    "moment": "^2.16.0",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  }
+}
